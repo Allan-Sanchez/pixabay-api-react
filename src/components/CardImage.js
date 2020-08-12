@@ -5,7 +5,7 @@ const CardImage = ({descriptionImage}) => {
   return (
     <div className="flex flex-col justify-center items-center max-w-sm mx-auto pb-24">
       <div
-        className="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center"
+        className="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center  overflow-hidden"
       >
        <a href={largeImageURL} target="_blank" rel="noopener noreferrer">
        <img src={largeImageURL} alt=""/>
