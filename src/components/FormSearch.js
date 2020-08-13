@@ -22,7 +22,7 @@ const FormSearch = ({setSearch}) => {
         <Error message="you forgot to write what you want to search." />
       ) : null}
 
-      <div className="flex justify-center item-center">
+      <div className="form-pixabay flex justify-center item-center">
         <form
           onSubmit={searchImages}
           className="flex justify-content item-center md:w-1/3 sm:w-full px-10"
